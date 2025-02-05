@@ -3,9 +3,9 @@ package wasmtesting
 import (
 	"bytes"
 
+	"github.com/CosmWasm/wasmd/libs/rand"
 	wasmvm "github.com/CosmWasm/wasmvm/v2"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
-	"github.com/cometbft/cometbft/libs/rand"
 
 	errorsmod "cosmossdk.io/errors"
 

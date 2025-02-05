@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/CosmWasm/wasmd/libs/rand"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
-	"github.com/cometbft/cometbft/libs/rand"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

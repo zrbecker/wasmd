@@ -9,8 +9,8 @@ import (
 	// simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtprotoversion "github.com/cometbft/cometbft/proto/tendermint/version"
+	cmtproto "github.com/cometbft/cometbft/api/cometbft/types/v1"
+	cmtprotoversion "github.com/cometbft/cometbft/api/cometbft/version"/v1
 	cmttypes "github.com/cometbft/cometbft/types"
 	tmversion "github.com/cometbft/cometbft/version"
 	capabilitykeeper "github.com/cosmos/ibc-go/modules/capability/keeper"
